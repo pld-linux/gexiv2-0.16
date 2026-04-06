@@ -15,7 +15,7 @@ Group:		Libraries
 Source0:	https://download.gnome.org/sources/gexiv2/0.14/%{name}-%{version}.tar.xz
 # Source0-md5:	4139dfeca8e30288969233568c72e06e
 Patch0:		%{name}-python-archdir.patch
-URL:		https://wiki.gnome.org/Projects/gexiv2
+URL:		https://gnome.pages.gitlab.gnome.org/gexiv2/
 BuildRequires:	exiv2-devel >= 0.27.4
 BuildRequires:	glib2-devel >= 1:2.46.0
 BuildRequires:	gobject-introspection-devel >= 0.10
