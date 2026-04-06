@@ -162,13 +162,13 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc AUTHORS NEWS README.md THANKS
-%attr(755,root,root) %{_libdir}/libgexiv2.so.*.*.*
-%attr(755,root,root) %ghost %{_libdir}/libgexiv2.so.2
+%{_libdir}/libgexiv2.so.*.*.*
+%ghost %{_libdir}/libgexiv2.so.2
 %{_libdir}/girepository-1.0/GExiv2-0.10.typelib
 
 %files devel
 %defattr(644,root,root,755)
-%attr(755,root,root) %{_libdir}/libgexiv2.so
+%{_libdir}/libgexiv2.so
 %{_datadir}/gir-1.0/GExiv2-0.10.gir
 %{_includedir}/gexiv2
 %{_pkgconfigdir}/gexiv2.pc
