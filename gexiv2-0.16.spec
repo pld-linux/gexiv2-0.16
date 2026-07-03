@@ -15,12 +15,12 @@
 Summary:	GObject-based wrapper around the Exiv2 library
 Summary(pl.UTF-8):	Oparte na GObject obudowanie biblioteki Exiv2
 Name:		gexiv2-0.16
-Version:	0.16.0
+Version:	0.16.1
 Release:	1
 License:	GPL v2+
 Group:		Libraries
 Source0:	https://download.gnome.org/sources/gexiv2/0.16/gexiv2-%{version}.tar.xz
-# Source0-md5:	0cb9fbd499f4aca2f976948395b465ee
+# Source0-md5:	ae68cf5c9a73170d06c614b2423151b6
 Patch0:		gexiv2-python-archdir.patch
 URL:		https://gnome.pages.gitlab.gnome.org/gexiv2/
 BuildRequires:	exiv2-devel >= 0.28
